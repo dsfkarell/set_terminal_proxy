@@ -1,5 +1,5 @@
 # configure_apt_proxy.sh
-A bash script for linux (Debian and Ubuntu) to easily configure an HTTP PROXY to use APT behind a proxy.
+A bash script for Linux (Debian and Ubuntu) to easily configure an HTTP PROXY to use APT behind a proxy.
 
 ## Why to use this solution over others?
 
@@ -9,7 +9,7 @@ The advantage of this script is that the proxy configuration data is entered in 
 
 ### 1. Download the script
 
-The first step is download the configure_apt_proxy.sh file. It can be obtained from [here](/configure_apt_proxy.sh).
+The first step is to download the configure_apt_proxy.sh file. It can be obtained from [here](/configure_apt_proxy.sh).
 
 ### 2. Grant execution permissions to the script
 
@@ -17,26 +17,26 @@ Next, you have to open the terminal in the downloaded script location and execut
 
 ### 3. Script execution
 
-Once the permissions are given, you are ready to run the script. For do that, exceute the script with `sudo ./configure_apt_proxy.sh` (note the `sudo` to run with root privileges).
+Once the permissions are given, you are ready to run the script. To do that, execute the script with `sudo ./configure_apt_proxy.sh` (note the `sudo` to run with root privileges).
 
 ### 4. Enter the proxy configuration data
 
-After the third step, two windows should appears asking you first for the proxy host and then for the proxy port.
-Finally, once entered these data, you should see a dialog box with a confirmation message.
-Note: If you do not enter some of the requested data (leaving it blank), an error dialog will appear.
+After the third step, two windows should appear asking you first for the proxy host and then for the proxy port.
+Finally, once enter these data, you should see a dialog box with a confirmation message.
+Note: An error dialog will appear if you do not enter some of the requested data (leaving it blank).
 
 ### 5. Check the APT navigation through the configured proxy
 
-Execute some APT command such as `sudo apt update` to test the provided proxy configuration. Note: Does not need to restart.
+Execute some APT commands such as `sudo apt update` to test the provided proxy configuration. Note: Does not need to restart.
 
 
 ## Possible Enhancements
 
-This script can be enhanced by adding: data validations, proxy credentials support, edit and clear current proxy configuration (no proxy), management of stored proxy configurations and other features.
+This script can be enhanced by adding: data validations, proxy credentials support, editing and clear current proxy configuration (no proxy), management of stored proxy configurations, and other features.
 
 ## Testing
 
-Tested on Nova 8, Ubuntu 20.04 and Debian 11.
+Tested on Nova 8, Ubuntu 20.04, and Debian 11.
 
 ## Copyright
 
